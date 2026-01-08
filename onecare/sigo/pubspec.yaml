@@ -79,7 +79,7 @@ dependencies:
   crypto: ^3.0.3
 
   # QR code scanner
-  mobile_scanner: ^5.2.3
+  mobile_scanner: ^7.1.4
 
   # Loading animations
   loading_animation_widget: ^1.2.1
