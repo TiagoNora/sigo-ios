@@ -10,6 +10,9 @@ jobs:
   build-ios:
     name: Build iOS
     runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: onecare/sigo
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -34,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ios-build
-          path: build/ios/iphoneos/
+          path: onecare/sigo/build/ios/iphoneos/
