@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIGO OneCare</string>
+    <string name="widget_name">Visão Geral de Tickets</string>
+    <string name="widget_description">Fique atualizado com o SIGO OneCare</string>
+    <string name="widget_title">Visão Geral de Tickets</string>
+    <string name="widget_acknowledged">Reconhecido</string>
+    <string name="widget_held">Em espera</string>
+    <string name="widget_in_progress">Em progresso</string>
+    <string name="widget_pending">Pendente</string>
+    <string name="widget_total_format">Total: %1$d tickets</string>
+    <string name="widget_total_default">Total: 0 tickets</string>
+    <string name="widget_no_data">Sem dados</string>
+    <string name="widget_last_update_format">Atualizado: %1$s</string>
+    <string name="widget_last_update_default">Atualizado: --</string>
+    <string name="widget_refresh">Recarregar</string>
+</resources>
