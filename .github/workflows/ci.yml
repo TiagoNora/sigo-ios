@@ -17,12 +17,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Flutter
+      - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.38.5'
-          channel: 'stable'
-          cache: true
+          channel: stable
 
       - name: Get dependencies
         run: flutter pub get
@@ -31,7 +29,7 @@ jobs:
         run: flutter pub run build_runner build --delete-conflicting-outputs
 
       - name: Build iOS (no codesign)
-        run: flutter build ios --release --no-codesign
+        run: flutter build ios --debug
 
       - name: Upload iOS build artifact
         uses: actions/upload-artifact@v4

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214039481402",
+    "project_id": "sigo-onecare-dev",
+    "storage_bucket": "sigo-onecare-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214039481402:android:b13959b5827f9ad0e23903",
+        "android_client_info": {
+          "package_name": "com.alticelabs.sigo.onecare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtibzmdsUy0dGEzdwRamK5LUB8d1vhn50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
