@@ -1,0 +1,17 @@
+"notif_ticket_created_title" = "Ticket %1$@ criado";
+"notif_ticket_updated_title" = "Ticket %1$@ atualizado";
+"notif_ticket_resolved_title" = "Ticket %1$@ resolvido";
+"notif_ticket_closed_title" = "Ticket %1$@ fechado";
+"notif_ticket_cancelled_title" = "Ticket %1$@ cancelado";
+"notif_ticket_reopened_title" = "Ticket %1$@ reaberto";
+"notif_ticket_status_body" = "Estado atualizado";
+"notif_ticket_generic_body" = "Ticket atualizado";
+"notif_body_note_added" = "Nota adicionada";
+"notif_body_attachment_added" = "Anexo adicionado";
+"notif_body_attachment_removed" = "Anexo removido";
+"notif_body_attachment_updated" = "Anexo atualizado";
+"notif_body_impact_changed" = "Impacto alterado";
+"notif_body_severity_changed" = "Severidade alterada";
+"notification_maintenance_title" = "Janela de manutenção";
+"notification_maintenance_body" = "Manutenção agendada de %1$@ a %2$@";
+"notification_general_title" = "Informação geral";
