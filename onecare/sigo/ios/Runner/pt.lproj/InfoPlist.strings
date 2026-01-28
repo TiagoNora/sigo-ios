@@ -1,0 +1,4 @@
+"NSCameraUsageDescription" = "Permita o acesso à câmara para ler códigos QR.";
+"NSFaceIDUsageDescription" = "Autentique-se para aceder à sua conta";
+"NSPhotoLibraryUsageDescription" = "Permita o acesso à fototeca para selecionar imagens.";
+"NSPhotoLibraryAddUsageDescription" = "Permita o acesso à fototeca para guardar imagens.";

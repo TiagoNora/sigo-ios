@@ -1,0 +1,13 @@
+"widget_title" = "Meus Tickets";
+"widget_acknowledged" = "Reconhecido";
+"widget_held" = "Em espera";
+"widget_in_progress" = "Em progresso";
+"widget_pending" = "Pendente";
+"widget_resolved" = "Resolvido";
+"widget_total_format" = "Total: %d tickets";
+"widget_no_data" = "Sem dados";
+"widget_last_update_format" = "Atualizado: %@";
+"widget_last_update_default" = "Atualizado: --";
+"widget_refresh" = "Recarregar";
+"widget_display_name" = "SIGO OneCare";
+"widget_description" = "Fique atualizado com o SIGO OneCare";
