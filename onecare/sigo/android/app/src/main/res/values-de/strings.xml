@@ -8,6 +8,7 @@
     <string name="widget_held">Zurückgestellt</string>
     <string name="widget_in_progress">In Bearbeitung</string>
     <string name="widget_pending">Ausstehend</string>
+    <string name="widget_resolved">Gelöst</string>
     <string name="widget_total_format">Gesamt: %1$d Tickets</string>
     <string name="widget_total_default">Gesamt: 0 Tickets</string>
     <string name="widget_no_data">Keine Daten</string>

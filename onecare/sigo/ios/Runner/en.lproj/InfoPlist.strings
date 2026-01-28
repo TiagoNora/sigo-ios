@@ -1,4 +1,0 @@
-"NSCameraUsageDescription" = "Allow camera access to scan QR codes.";
-"NSFaceIDUsageDescription" = "Authenticate to access your account";
-"NSPhotoLibraryUsageDescription" = "Allow photo library access to select images.";
-"NSPhotoLibraryAddUsageDescription" = "Allow photo library access to save images.";

@@ -18,7 +18,7 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 
-open class HomeWidgetProvider : HomeWidgetProvider() {
+open class SigoWidgetProvider : HomeWidgetProvider() {
 
     override fun onUpdate(
         context: Context,
@@ -45,6 +45,7 @@ open class HomeWidgetProvider : HomeWidgetProvider() {
                     val held = widgetData.getInt("ticket_held", 0)
                 val inProgress = widgetData.getInt("ticket_in_progress", 0)
                 val pending = widgetData.getInt("ticket_pending", 0)
+                val resolved = widgetData.getInt("ticket_resolved", 0)
                 val total = widgetData.getInt("ticket_total", 0)
                 val lastUpdateRaw = widgetData.getString("ticket_last_update", null)
                 val lastUpdateText = formatLastUpdate(context, lastUpdateRaw)
@@ -54,6 +55,7 @@ open class HomeWidgetProvider : HomeWidgetProvider() {
                 setTextViewText(R.id.ticket_held, held.toString())
                 setTextViewText(R.id.ticket_in_progress, inProgress.toString())
                 setTextViewText(R.id.ticket_pending, pending.toString())
+                setTextViewText(R.id.ticket_resolved, resolved.toString())
                 setTextViewText(
                     R.id.ticket_total,
                     context.getString(R.string.widget_total_format, total)
@@ -97,7 +99,7 @@ open class HomeWidgetProvider : HomeWidgetProvider() {
 
                 appWidgetManager.updateAppWidget(widgetId, views)
             } catch (e: Exception) {
-                Log.e("HomeWidgetProvider", "Widget update failed", e)
+                Log.e("SigoWidgetProvider", "Widget update failed", e)
                 // Avoid crashing the widget host; keep last valid RemoteViews if any.
             }
         }

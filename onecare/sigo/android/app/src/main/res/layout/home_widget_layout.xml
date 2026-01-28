@@ -143,7 +143,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:layout_marginBottom="4dp">
             <TextView
                 android:layout_width="10dp"
                 android:layout_height="10dp"
@@ -159,6 +160,35 @@
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/ticket_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Resolved -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="#9C27B0"
+                android:layout_marginEnd="6dp"
+                android:text="" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/widget_resolved"
+                android:textSize="10sp"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/ticket_resolved"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"

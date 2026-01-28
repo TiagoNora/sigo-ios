@@ -1,4 +1,0 @@
-"NSCameraUsageDescription" = "Erlaube den Kamerazugriff zum Scannen von QR-Codes.";
-"NSFaceIDUsageDescription" = "Authentifizieren Sie sich, um auf Ihr Konto zuzugreifen";
-"NSPhotoLibraryUsageDescription" = "Erlaube den Zugriff auf die Fotomediathek, um Bilder auszuwählen.";
-"NSPhotoLibraryAddUsageDescription" = "Erlaube den Zugriff auf die Fotomediathek, um Bilder zu speichern.";

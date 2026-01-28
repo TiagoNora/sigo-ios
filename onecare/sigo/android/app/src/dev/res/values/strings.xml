@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="widget_name">Ticket Overview (Dev)</string>
-    <string name="widget_description">Stay updated with SIGO OneCare dev information</string>
-    <string name="widget_title">Ticket Overview (Dev)</string>
+    <string name="widget_name">Ticket Overview</string>
+    <string name="widget_description">Stay updated with SIGO OneCare information</string>
+    <string name="widget_title">Ticket Overview</string>
 </resources>
